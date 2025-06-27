@@ -1,36 +1,59 @@
 # 🐍 Python Projects
 
 Welcome to my **Python Projects** repository!  
-This is a curated collection of small-to-medium Python projects I built to sharpen my skills and explore different areas of programming.
-
-Each project is standalone and focuses on solving real-world problems or building useful tools — from CLI apps to file automation and simple games.
+This is a growing collection of real-world Python tools I’m building to learn and solve practical problems.
 
 ---
 
 ## 🚀 Projects Included
 
-| Project Name           | Description                                              |
-|------------------------|----------------------------------------------------------|
-| 📦 `project1_weather_app`  | A simple CLI app that fetches current weather using an API |
-| ✅ `project2_todo_cli`     | A command-line to-do list manager with save/load support     |
-| 🗂️ `project3_file_organizer` | Organizes files into folders by file type automatically     
+| Project Name                 | Description                                                  |
+|------------------------------|--------------------------------------------------------------|
+| 📥 `project1_telegram_downloader` | Downloads videos and photos from Telegram groups/channels |
+
+---
 
 ## 📚 Why This Repo?
 
-- 🔁 Practice real-world Python patterns
-- 🧪 Experiment with libraries and modules
-- 📁 Keep all my mini-projects in one place
-- 🎯 Track my growth as a Python developer
+- 🔁 Build projects that actually do something useful
+- 🧪 Learn to work with APIs, libraries, and real data
+- 🎯 Grow as a Python developer one tool at a time
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python 3.x
-- Standard Library
-- Some external packages (documented per project)
+- [Telethon](https://github.com/LonamiWebs/Telethon)
+- tqdm for progress bars
+- Logging module
 
 ---
 
 ## 📂 Folder Structure
 
+```
+python-projects/
+└── project1_telegram_downloader/
+    ├── telegram_downloader.py
+    └── README.md
+```
+
+---
+
+## ✍️ Signature
+
+```
+  _____           _             
+ |  __ \         (_)            
+ | |__) |__ _ ___ _  ___  _ __  
+ |  _  // _` / __| |/ _ \| '_ \ 
+ | | \ \ (_| \__ \ | (_) | | | |
+ |_|  \_\__,_|___/_|\___/|_| |_|
+
+    Built by Ranim 🐺
+```
+
+---
+
+Thanks for checking out my first real Python tool!
