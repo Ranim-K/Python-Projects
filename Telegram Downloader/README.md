@@ -77,8 +77,8 @@ All files will be saved to:
 Your API credentials are already set in the script:
 
 ```python
-api_id = 29949213
-api_hash = 'cd78d1e37a6666756a5483ec22f6a84a'
+api_id = 12345678
+api_hash = 'your_api_hash'
 ```
 
 If needed, you can get your own from [https://my.telegram.org](https://my.telegram.org).
