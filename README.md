@@ -1,60 +1,32 @@
-# 🐍 Python Projects
+# Image Downloader
 
-Welcome to my **Python Projects** repository!  
-This is a growing collection of real-world Python tools I’m building to learn and solve practical problems.
+## Idea
 
----
-
-## 🚀 Projects Included
-
-| Project Name                 | Description                                                  |
-|------------------------------|--------------------------------------------------------------|
-| 📥 `project1_telegram_downloader` | Downloads videos and photos from Telegram groups/channels |
+This project is a simple script to download images from any given webpage URL. It focuses on downloading **main content images** while avoiding small images like favicons, logos, or avatars. Each set of images from a URL is organized neatly into a numeric folder.
 
 ---
 
-## 📚 Why This Repo?
+## Workflow
 
-- 🔁 Build projects that actually do something useful
-- 🧪 Learn to work with APIs, libraries, and real data
-- 🎯 Grow as a Python developer one tool at a time
+1. **Input URL**  
+   - User provides a webpage URL via the script input.
 
----
+2. **Create Folder**  
+   - A new folder with a numeric name (1, 2, 3...) is automatically created inside the `Downloads` folder of the project.
 
-## 🛠️ Tech Stack
+3. **Fetch Images**  
+   - The script parses the webpage and finds all `<img>` tags.  
+   - Relative URLs are converted to absolute URLs.
 
-- Python 3.x
-- [Telethon](https://github.com/LonamiWebs/Telethon)
-- tqdm for progress bars
-- Logging module
+4. **Filter Small Images**  
+   - Tiny images (like favicons or icons smaller than 5KB) are skipped automatically.
 
----
+5. **Download and Save**  
+   - Each image is downloaded and saved inside the numeric folder.  
+   - Images are named numerically (1.jpg, 2.png, 3.jpg, ...).  
+   - The script prints a clean log for each downloaded image.
 
-## 📂 Folder Structure
+6. **Next URL**  
+   - The script waits for the next URL input, repeating the process.  
+   - User can quit by typing `q`.
 
-```
-python-projects/
-└── project1_telegram_downloader/
-    ├── telegram_downloader.py
-    └── README.md
-```
-
----
-
-## ✍️ Signature
-
-```
-
-__________               .__         
-\______   \_____    ____ |__| _____  
- |       _/\__  \  /    \|  |/     \ 
- |    |   \ / __ \|   |  \  |  Y Y  \
- |____|_  /(____  /___|  /__|__|_|  /
-        \/      \/     \/         \/ 
-
-    Built by Ranim 🐺
-```
-
----
-
-Thanks for checking out my first real Python tool!
